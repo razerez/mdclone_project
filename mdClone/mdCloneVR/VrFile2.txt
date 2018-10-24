@@ -1,0 +1,1201 @@
+ gendercode, Antibiotic after diagnosis, Age at antibiotic after diagnosis, Length of stay transfer
+M,Azithromycin,85,28
+F,Azithromycin,42,69
+F,Azithromycin,34,
+M,Azithromycin,63,13
+M,CeftriaXONE,50,16
+F,CeftriaXONE,85,
+M,CeftriaXONE,77,728
+F,CeftriaXONE,71,77
+M,Cefpodoxime Proxetil,25,25
+F,Linezolid,50,281
+M,Linezolid,72,123
+F,Vancomycin Oral Liquid,61,310
+M,Vancomycin Oral Liquid,58,
+F,Ciprofloxacin HCl,41,116
+M,Ampicillin Sodium,48,1153
+F,Ampicillin Sodium,73,46
+M,CefePIME,51,197
+F,CefePIME,81,69
+M,CefePIME,45,405
+F,CefePIME,56,147
+F,CefePIME,72,261
+M,CefePIME,80,225
+M,CefePIME,84,12
+F,CefePIME,80,166
+F,CefePIME,76,517
+F,CefePIME,44,165
+F,Vancomycin HCl,85,47
+M,Vancomycin HCl,88,48
+M,Vancomycin HCl,62,260
+M,Vancomycin HCl,87,118
+F,Vancomycin HCl,84,
+M,Vancomycin HCl,64,104
+F,Vancomycin HCl,72,363
+M,Vancomycin HCl,83,
+F,Vancomycin HCl,60,
+M,Vancomycin HCl,85,72
+F,Vancomycin HCl,49,482
+M,Vancomycin HCl,70,49
+M,Vancomycin HCl,46,259
+M,Vancomycin HCl,82,262
+M,Vancomycin HCl,81,233
+F,Vancomycin HCl,75,69
+F,Vancomycin HCl,60,65
+M,Vancomycin HCl,79,159
+F,Vancomycin HCl,68,47
+F,Vancomycin HCl,68,
+M,Vancomycin HCl,80,141
+F,Vancomycin HCl,56,
+M,Vancomycin HCl,56,308
+M,Vancomycin HCl,59,181
+M,Vancomycin HCl,69,882
+F,Vancomycin HCl,60,18
+M,Vancomycin HCl,79,172
+F,Vancomycin HCl,82,597
+F,Vancomycin HCl,77,762
+F,Gentamicin Sulfate,58,68
+M,Gentamicin Sulfate,70,170
+M,Levofloxacin,33,272
+F,Levofloxacin,63,74
+M,Levofloxacin,76,22
+F,Levofloxacin,78,155
+M,Levofloxacin,73,739
+M,Levofloxacin,75,262
+M,Levofloxacin,87,16
+F,Levofloxacin,50,50
+M,Levofloxacin,80,20
+M,Levofloxacin,74,467
+M,Levofloxacin,58,23
+M,Levofloxacin,62,41
+M,Levofloxacin,85,48
+F,Levofloxacin,78,90
+F,Levofloxacin,71,44
+M,Vancomycin,80,835
+F,Vancomycin,80,32
+M,Vancomycin,23,467
+F,Vancomycin,82,22
+F,Vancomycin,78,95
+M,Vancomycin,80,405
+F,Vancomycin,54,115
+M,Vancomycin,88,30
+F,Vancomycin,83,128
+F,Vancomycin,89,45
+M,Vancomycin,72,41
+M,Vancomycin,61,317
+M,Vancomycin,44,916
+M,Vancomycin,62,50
+F,Vancomycin,59,77
+F,Vancomycin,56,40
+M,Vancomycin,87,238
+M,Vancomycin,49,52
+M,Vancomycin,71,262
+F,Vancomycin,45,169
+F,Vancomycin,69,
+M,Vancomycin,78,95
+M,Vancomycin,80,53
+M,Vancomycin,84,326
+F,Vancomycin,64,196
+M,Vancomycin,76,41
+F,Vancomycin,76,53
+M,Vancomycin,78,77
+M,Vancomycin,88,42
+M,Vancomycin,80,50
+M,Vancomycin,58,282
+M,Vancomycin,87,19
+M,Vancomycin,56,97
+M,Vancomycin,78,69
+F,Vancomycin,71,18
+M,Vancomycin,77,410
+M,Vancomycin,62,94
+M,Vancomycin,69,174
+F,Vancomycin,44,248
+M,Vancomycin,67,353
+F,Vancomycin,85,36
+M,Vancomycin,61,172
+F,Vancomycin,75,26
+M,Vancomycin,66,159
+M,Vancomycin,70,576
+M,Vancomycin,80,549
+F,Vancomycin,72,218
+M,Vancomycin,69,189
+M,Vancomycin,82,25
+M,Vancomycin,87,40
+F,Tobramycin Sulfate,32,215
+F,Tobramycin Sulfate,70,123
+F,Vancomycin Oral Liquid,63,262
+M,Vancomycin Oral Liquid,50,16
+M,Vancomycin HCl,85,50
+M,Vancomycin HCl,77,20
+F,Vancomycin HCl,71,467
+M,Vancomycin HCl,25,23
+F,Vancomycin HCl,50,41
+F,Vancomycin HCl,72,48
+F,Vancomycin HCl,61,90
+M,Vancomycin HCl,58,44
+M,Vancomycin HCl,41,835
+F,Vancomycin HCl,48,32
+M,Vancomycin HCl,73,467
+F,Vancomycin HCl,51,22
+M,Vancomycin HCl,81,95
+M,Vancomycin HCl,45,405
+M,Vancomycin HCl,56,115
+F,Vancomycin HCl,72,30
+M,Vancomycin HCl,80,128
+M,Vancomycin HCl,84,45
+M,Vancomycin HCl,80,41
+M,Vancomycin HCl,76,317
+M,Vancomycin HCl,44,916
+F,Vancomycin HCl,85,50
+F,Vancomycin HCl,88,77
+M,Vancomycin HCl,62,40
+F,Vancomycin HCl,87,238
+M,Vancomycin HCl,84,52
+F,Vancomycin HCl,64,262
+F,Vancomycin HCl,72,169
+M,Vancomycin HCl,83,0
+F,Vancomycin,60,95
+M,Vancomycin,85,53
+F,Vancomycin,49,326
+F,Vancomycin,70,196
+M,Vancomycin,46,41
+M,Vancomycin,82,53
+M,Vancomycin,81,77
+M,Vancomycin,75,42
+F,Vancomycin,60,50
+F,Vancomycin,79,282
+M,Vancomycin,68,19
+M,Vancomycin,68,97
+M,Vancomycin,80,69
+F,Vancomycin,56,18
+F,Vancomycin,56,410
+M,Vancomycin,59,94
+M,Vancomycin,69,174
+M,Vancomycin,60,248
+F,Vancomycin,79,353
+M,Vancomycin,82,36
+F,Vancomycin,77,172
+M,Vancomycin,58,26
+M,Vancomycin,70,159
+M,Vancomycin,33,576
+M,Vancomycin,63,549
+M,Vancomycin,76,218
+M,Vancomycin,78,189
+M,Vancomycin,73,25
+F,Vancomycin,75,40
+M,Vancomycin,87,215
+M,Vancomycin,50,123
+M,Vancomycin,80,262
+F,Vancomycin,74,16
+M,Vancomycin,58,50
+F,Vancomycin,62,20
+M,Vancomycin,85,467
+F,Vancomycin,78,23
+M,Vancomycin,71,41
+M,Vancomycin,80,48
+M,Vancomycin,80,90
+F,Vancomycin,23,44
+M,Vancomycin,82,835
+M,Vancomycin,78,32
+M,Vancomycin,80,467
+F,Vancomycin,54,22
+F,Vancomycin,88,95
+F,Vancomycin,83,405
+M,Vancomycin,89,115
+M,Vancomycin,72,30
+M,Vancomycin,61,128
+F,Tobramycin Sulfate,44,45
+M,Tobramycin Sulfate,62,41
+F,Linezolid,59,317
+F,Linezolid,56,916
+F,Levofloxacin,87,50
+M,Levofloxacin,49,77
+M,Levofloxacin,71,40
+F,Levofloxacin,45,238
+M,Levofloxacin,69,52
+F,Levofloxacin,78,262
+M,Levofloxacin,80,169
+M,Levofloxacin,84,0
+M,Levofloxacin,64,95
+F,Levofloxacin,76,53
+M,Levofloxacin,76,326
+M,Levofloxacin,78,196
+M,Levofloxacin,88,41
+M,Levofloxacin,80,53
+M,Levofloxacin,58,77
+F,Gentamicin Sulfate,87,42
+F,Gentamicin Sulfate,56,50
+M,Ciprofloxacin HCl,78,282
+F,CeftriaXONE,71,19
+M,CeftriaXONE,77,97
+F,CeftriaXONE,62,69
+F,CeftriaXONE,69,18
+M,Cefpodoxime Proxetil,44,410
+F,CefePIME,67,94
+M,CefePIME,85,174
+F,CefePIME,61,248
+F,CefePIME,75,353
+M,CefePIME,66,36
+M,CefePIME,70,172
+M,CefePIME,80,26
+M,CefePIME,72,159
+F,CefePIME,69,576
+F,CefePIME,82,549
+M,Azithromycin,87,218
+M,Azithromycin,32,189
+M,Azithromycin,70,25
+F,Azithromycin,63,40
+F,Ampicillin Sodium,50,215
+M,Vancomycin,85,123
+M,Vancomycin,77,262
+M,Vancomycin,71,16
+F,Vancomycin,25,50
+M,Vancomycin,50,20
+F,Vancomycin,72,467
+M,Vancomycin,61,23
+M,Vancomycin,58,41
+M,Vancomycin,41,48
+M,Vancomycin,48,90
+M,Vancomycin,73,44
+M,Vancomycin,51,835
+M,Vancomycin,81,32
+F,Vancomycin,45,467
+M,Vancomycin,56,22
+M,Vancomycin,72,95
+M,Vancomycin,80,405
+F,Vancomycin,84,115
+M,Vancomycin,80,30
+F,Vancomycin,76,128
+M,Vancomycin,44,45
+F,Vancomycin,85,41
+M,Vancomycin,88,317
+M,Vancomycin,62,916
+M,Vancomycin,87,50
+F,Vancomycin,84,77
+M,Tobramycin Sulfate,64,40
+M,Tobramycin Sulfate,72,238
+M,Linezolid,83,52
+F,Linezolid,60,262
+F,Levofloxacin,85,169
+F,Levofloxacin,49,0
+M,Levofloxacin,70,95
+M,Levofloxacin,46,53
+M,Levofloxacin,82,326
+F,Levofloxacin,81,196
+M,Levofloxacin,75,41
+F,Levofloxacin,60,53
+F,Levofloxacin,79,77
+F,Levofloxacin,68,42
+M,Levofloxacin,68,50
+M,Levofloxacin,80,282
+F,Levofloxacin,56,19
+M,Levofloxacin,56,97
+F,Levofloxacin,59,69
+M,Gentamicin Sulfate,69,18
+M,Gentamicin Sulfate,60,410
+M,Ciprofloxacin HCl,79,94
+F,CeftriaXONE,82,174
+M,CeftriaXONE,77,248
+M,CeftriaXONE,58,353
+M,CeftriaXONE,70,36
+M,Cefpodoxime Proxetil,33,172
+M,CefePIME,63,26
+F,CefePIME,76,159
+F,CefePIME,78,576
+M,CefePIME,73,549
+F,CefePIME,75,218
+M,CefePIME,87,189
+F,CefePIME,50,25
+F,CefePIME,80,40
+M,CefePIME,74,215
+F,CefePIME,58,123
+M,Azithromycin,62,262
+F,Azithromycin,85,16
+F,Azithromycin,78,50
+M,Azithromycin,71,20
+M,Ampicillin Sodium,80,467
+M,Vancomycin,80,23
+M,Vancomycin,23,41
+F,Vancomycin,82,48
+F,Vancomycin,78,90
+M,Vancomycin,80,44
+M,Vancomycin,54,835
+M,Vancomycin,88,32
+F,Vancomycin,83,467
+F,Vancomycin,89,22
+M,Vancomycin,72,95
+M,Vancomycin,61,405
+M,Vancomycin,44,115
+F,Vancomycin,62,30
+M,Vancomycin,59,128
+F,Vancomycin,56,45
+M,Vancomycin,87,41
+M,Vancomycin,49,317
+M,Vancomycin,71,916
+M,Vancomycin,45,50
+M,Vancomycin,69,77
+M,Vancomycin,78,40
+M,Vancomycin,80,238
+F,Vancomycin,84,52
+M,Vancomycin,64,262
+M,Vancomycin,76,169
+M,Vancomycin,76,0
+F,Tobramycin Sulfate,78,95
+M,Tobramycin Sulfate,88,53
+F,Linezolid,80,326
+M,Linezolid,58,196
+F,Levofloxacin,87,41
+M,Levofloxacin,56,53
+M,Levofloxacin,78,77
+M,Levofloxacin,71,42
+F,Levofloxacin,77,50
+M,Levofloxacin,62,282
+M,Levofloxacin,69,19
+M,Levofloxacin,44,97
+F,Levofloxacin,67,69
+F,Levofloxacin,85,18
+F,Levofloxacin,61,410
+M,Levofloxacin,75,94
+M,Levofloxacin,66,174
+M,Levofloxacin,70,248
+F,Levofloxacin,80,353
+M,Gentamicin Sulfate,72,36
+F,Gentamicin Sulfate,69,172
+F,Ciprofloxacin HCl,82,26
+F,CeftriaXONE,87,159
+M,CeftriaXONE,32,576
+M,CeftriaXONE,70,549
+F,CeftriaXONE,63,218
+M,Cefpodoxime Proxetil,50,189
+F,CefePIME,85,25
+M,CefePIME,77,40
+M,CefePIME,71,215
+M,CefePIME,25,123
+F,CefePIME,50,262
+M,CefePIME,72,16
+M,CefePIME,61,50
+M,CefePIME,58,20
+M,CefePIME,41,467
+M,CefePIME,48,23
+F,Azithromycin,73,41
+F,Azithromycin,51,48
+M,Azithromycin,81,90
+F,Azithromycin,45,44
+M,Ampicillin Sodium,56,835
+F,Vancomycin,72,32
+F,Vancomycin,80,467
+M,Vancomycin,84,22
+F,Vancomycin,80,95
+M,Vancomycin,76,405
+F,Vancomycin,44,115
+F,Vancomycin,85,30
+M,Vancomycin,88,128
+M,Vancomycin,62,45
+M,Vancomycin,87,41
+M,Vancomycin,84,317
+F,Vancomycin,64,916
+F,Vancomycin,72,50
+M,Vancomycin,83,77
+M,Vancomycin,60,40
+M,Vancomycin,85,238
+F,Vancomycin,49,52
+F,Vancomycin,70,262
+M,Vancomycin,46,169
+M,Vancomycin,82,0
+M,Vancomycin,81,95
+F,Vancomycin,75,53
+M,Vancomycin,60,326
+F,Vancomycin,79,196
+M,Vancomycin,68,41
+M,Vancomycin,68,53
+M,Tobramycin Sulfate,80,77
+M,Tobramycin Sulfate,56,42
+M,Linezolid,56,50
+M,Linezolid,59,282
+M,Levofloxacin,69,19
+F,Levofloxacin,60,97
+M,Levofloxacin,79,69
+M,Levofloxacin,82,18
+M,Levofloxacin,77,410
+F,Levofloxacin,58,94
+M,Levofloxacin,70,174
+F,Levofloxacin,33,248
+M,Levofloxacin,63,353
+F,Levofloxacin,76,36
+M,Levofloxacin,78,172
+M,Levofloxacin,73,26
+M,Levofloxacin,75,159
+F,Levofloxacin,87,576
+M,Levofloxacin,50,549
+M,Gentamicin Sulfate,80,218
+M,Gentamicin Sulfate,74,189
+F,Ciprofloxacin HCl,58,25
+F,CeftriaXONE,62,40
+F,CeftriaXONE,85,215
+M,CeftriaXONE,78,123
+M,CeftriaXONE,71,262
+M,Cefpodoxime Proxetil,80,16
+F,CefePIME,80,50
+M,CefePIME,23,20
+F,CefePIME,82,467
+F,CefePIME,78,23
+F,CefePIME,80,41
+M,CefePIME,54,48
+M,CefePIME,88,90
+F,CefePIME,83,44
+M,CefePIME,89,835
+F,CefePIME,72,32
+M,Azithromycin,61,467
+M,Azithromycin,44,22
+M,Azithromycin,62,95
+F,Azithromycin,59,405
+M,Ampicillin Sodium,56,115
+M,Vancomycin,87,30
+M,Vancomycin,49,128
+M,Vancomycin,71,45
+M,Vancomycin,45,41
+F,Vancomycin,69,317
+F,Vancomycin,78,916
+M,Vancomycin,80,50
+F,Vancomycin,84,77
+M,Vancomycin,64,40
+F,Vancomycin,76,238
+F,Vancomycin,76,52
+M,Vancomycin,78,262
+F,Vancomycin,88,169
+M,Vancomycin,80,0
+F,Vancomycin,58,95
+F,Vancomycin,87,53
+M,Vancomycin,56,326
+M,Vancomycin,78,196
+M,Vancomycin,71,41
+M,Vancomycin,77,53
+F,Vancomycin,62,77
+F,Vancomycin,69,42
+M,Vancomycin,44,50
+M,Vancomycin,67,282
+M,Vancomycin,85,19
+F,Vancomycin,61,97
+F,Tobramycin Sulfate,75,69
+M,Tobramycin Sulfate,66,18
+M,Linezolid,70,410
+M,Linezolid,80,94
+F,Levofloxacin,72,174
+M,Levofloxacin,69,248
+F,Levofloxacin,82,353
+M,Levofloxacin,87,36
+M,Levofloxacin,32,172
+M,Levofloxacin,70,26
+M,Levofloxacin,63,159
+M,Levofloxacin,50,576
+M,Levofloxacin,85,549
+M,Levofloxacin,77,218
+F,Levofloxacin,71,189
+M,Levofloxacin,25,25
+M,Levofloxacin,50,40
+M,Levofloxacin,72,215
+F,Levofloxacin,61,123
+M,Gentamicin Sulfate,58,262
+F,Gentamicin Sulfate,41,16
+M,Ciprofloxacin HCl,48,50
+F,CeftriaXONE,73,20
+M,CeftriaXONE,51,467
+M,CeftriaXONE,81,23
+M,CeftriaXONE,45,41
+F,Cefpodoxime Proxetil,56,48
+M,CefePIME,72,90
+M,CefePIME,80,44
+M,CefePIME,84,835
+F,CefePIME,80,32
+F,CefePIME,76,467
+F,CefePIME,44,22
+M,CefePIME,85,95
+M,CefePIME,88,405
+M,CefePIME,62,115
+F,CefePIME,87,30
+M,Azithromycin,84,128
+F,Azithromycin,64,45
+F,Azithromycin,72,41
+F,Azithromycin,83,317
+M,Ampicillin Sodium,60,916
+M,Vancomycin,85,50
+F,Vancomycin,49,77
+M,Vancomycin,70,40
+F,Vancomycin,46,238
+M,Vancomycin,82,52
+M,Vancomycin,81,262
+M,Vancomycin,75,169
+F,Vancomycin,60,0
+M,Vancomycin,79,95
+M,Vancomycin,68,53
+M,Vancomycin,68,326
+M,Vancomycin,80,196
+M,Vancomycin,56,41
+F,Vancomycin,56,53
+F,Vancomycin,59,77
+M,Vancomycin,69,42
+F,Vancomycin,60,50
+M,Vancomycin,79,282
+F,Vancomycin,82,19
+F,Vancomycin,77,97
+M,Vancomycin,58,69
+F,Vancomycin,70,18
+M,Vancomycin,33,410
+F,Vancomycin,63,94
+F,Vancomycin,76,174
+M,Vancomycin,78,248
+M,Tobramycin Sulfate,73,353
+M,Tobramycin Sulfate,75,36
+M,Linezolid,87,172
+F,Linezolid,50,26
+F,Levofloxacin,80,159
+M,Levofloxacin,74,576
+M,Levofloxacin,58,549
+M,Levofloxacin,62,218
+F,Levofloxacin,85,189
+F,Levofloxacin,78,25
+M,Levofloxacin,71,40
+M,Levofloxacin,80,215
+M,Levofloxacin,80,123
+F,Levofloxacin,23,262
+M,Levofloxacin,82,16
+F,Levofloxacin,78,50
+M,Levofloxacin,80,20
+M,Levofloxacin,54,467
+M,Levofloxacin,88,23
+M,Gentamicin Sulfate,83,41
+M,Gentamicin Sulfate,89,48
+M,Ciprofloxacin HCl,72,90
+M,CeftriaXONE,61,44
+F,CeftriaXONE,44,835
+M,CeftriaXONE,62,32
+M,CeftriaXONE,59,467
+M,Cefpodoxime Proxetil,56,22
+F,CefePIME,87,95
+M,CefePIME,49,405
+F,CefePIME,71,115
+M,CefePIME,45,30
+F,CefePIME,69,128
+M,CefePIME,78,45
+M,CefePIME,80,41
+M,CefePIME,84,317
+F,CefePIME,64,916
+M,CefePIME,76,50
+M,Azithromycin,76,77
+M,Azithromycin,78,40
+F,Azithromycin,88,238
+F,Azithromycin,80,52
+F,Ampicillin Sodium,58,262
+M,Vancomycin,87,169
+M,Vancomycin,56,0
+M,Vancomycin,78,95
+F,Vancomycin,71,53
+M,Vancomycin,77,326
+F,Vancomycin,62,196
+F,Vancomycin,69,41
+F,Vancomycin,44,53
+M,Vancomycin,67,77
+M,Vancomycin,85,42
+F,Vancomycin,61,50
+M,Vancomycin,75,282
+F,Vancomycin,66,19
+M,Vancomycin,70,97
+M,Vancomycin,80,69
+M,Vancomycin,72,18
+F,Vancomycin,69,410
+M,Vancomycin,82,94
+M,Vancomycin,87,174
+M,Vancomycin,32,248
+M,Vancomycin,70,353
+M,Vancomycin,63,36
+F,Vancomycin,50,172
+F,Vancomycin,85,26
+M,Vancomycin,77,159
+F,Vancomycin,71,576
+M,Tobramycin Sulfate,25,549
+F,Tobramycin Sulfate,50,218
+F,Linezolid,72,189
+M,Linezolid,61,25
+F,Levofloxacin,58,40
+M,Levofloxacin,41,215
+F,Levofloxacin,48,123
+F,Levofloxacin,73,262
+M,Levofloxacin,51,16
+M,Levofloxacin,81,50
+M,Levofloxacin,45,20
+M,Levofloxacin,56,467
+F,Levofloxacin,72,23
+F,Levofloxacin,80,41
+M,Levofloxacin,84,48
+M,Levofloxacin,80,90
+M,Levofloxacin,76,44
+F,Levofloxacin,44,835
+F,Levofloxacin,85,32
+M,Gentamicin Sulfate,88,467
+M,Gentamicin Sulfate,62,22
+M,Ciprofloxacin HCl,87,95
+F,CeftriaXONE,84,405
+M,CeftriaXONE,64,115
+F,CeftriaXONE,72,30
+M,CeftriaXONE,83,128
+M,Cefpodoxime Proxetil,60,45
+M,CefePIME,85,41
+M,CefePIME,49,317
+M,CefePIME,70,916
+M,CefePIME,46,50
+M,CefePIME,82,77
+F,CefePIME,81,40
+M,CefePIME,75,238
+M,CefePIME,60,52
+M,CefePIME,79,262
+F,CefePIME,68,169
+M,Azithromycin,68,0
+F,Azithromycin,80,95
+M,Azithromycin,56,53
+F,Azithromycin,56,326
+M,Ampicillin Sodium,59,196
+M,Vancomycin,69,41
+M,Vancomycin,60,53
+F,Vancomycin,79,77
+M,Vancomycin,82,42
+M,Vancomycin,77,50
+M,Vancomycin,58,282
+F,Vancomycin,70,19
+F,Vancomycin,33,97
+F,Vancomycin,63,69
+M,Vancomycin,76,18
+M,Vancomycin,78,410
+M,Vancomycin,73,94
+F,Vancomycin,75,174
+M,Vancomycin,87,248
+F,Vancomycin,50,353
+F,Vancomycin,80,36
+F,Vancomycin,74,172
+M,Vancomycin,58,26
+M,Vancomycin,62,159
+F,Vancomycin,85,576
+M,Vancomycin,78,549
+F,Vancomycin,71,218
+M,Vancomycin,80,189
+M,Vancomycin,80,25
+M,Vancomycin,23,40
+F,Vancomycin,82,215
+M,Tobramycin Sulfate,78,123
+M,Tobramycin Sulfate,80,262
+M,Linezolid,54,16
+M,Linezolid,88,50
+M,Levofloxacin,83,20
+F,Levofloxacin,89,467
+F,Levofloxacin,72,23
+M,Levofloxacin,61,41
+F,Levofloxacin,44,48
+M,Levofloxacin,62,90
+F,Levofloxacin,59,44
+F,Levofloxacin,56,835
+M,Levofloxacin,87,32
+F,Levofloxacin,49,467
+M,Levofloxacin,71,22
+F,Levofloxacin,45,95
+F,Levofloxacin,69,405
+M,Levofloxacin,78,115
+M,Levofloxacin,80,30
+M,Gentamicin Sulfate,84,128
+M,Gentamicin Sulfate,64,45
+F,Ciprofloxacin HCl,76,41
+F,CeftriaXONE,76,317
+M,CeftriaXONE,78,916
+M,CeftriaXONE,88,50
+M,CeftriaXONE,80,77
+F,Cefpodoxime Proxetil,58,40
+F,CefePIME,87,238
+M,CefePIME,56,52
+M,CefePIME,78,262
+M,CefePIME,71,169
+F,CefePIME,77,0
+M,CefePIME,62,95
+F,CefePIME,69,53
+M,CefePIME,44,326
+M,CefePIME,67,196
+M,CefePIME,85,41
+M,Azithromycin,61,53
+M,Azithromycin,75,77
+M,Azithromycin,66,42
+M,Azithromycin,70,50
+F,Ampicillin Sodium,80,282
+M,Vancomycin,72,19
+M,Vancomycin,69,97
+M,Vancomycin,82,69
+F,Vancomycin,87,18
+M,Vancomycin,32,410
+F,Vancomycin,70,94
+M,Vancomycin,63,174
+F,Vancomycin,50,248
+M,Vancomycin,85,353
+M,Vancomycin,77,36
+M,Vancomycin,71,172
+F,Vancomycin,25,26
+M,Vancomycin,50,159
+M,Vancomycin,72,576
+M,Vancomycin,61,549
+F,Vancomycin,58,218
+F,Vancomycin,41,189
+F,Vancomycin,48,25
+M,Vancomycin,73,40
+M,Vancomycin,51,215
+M,Vancomycin,81,123
+F,Vancomycin,45,262
+M,Vancomycin,56,16
+F,Vancomycin,72,50
+F,Vancomycin,80,20
+F,Vancomycin,84,467
+M,Tobramycin Sulfate,80,23
+M,Tobramycin Sulfate,76,41
+F,Linezolid,44,48
+M,Linezolid,85,90
+F,Levofloxacin,88,44
+M,Levofloxacin,62,835
+M,Levofloxacin,87,32
+M,Levofloxacin,84,467
+F,Levofloxacin,64,22
+M,Levofloxacin,72,95
+M,Levofloxacin,83,405
+M,Levofloxacin,60,115
+M,Levofloxacin,85,30
+M,Levofloxacin,49,128
+F,Levofloxacin,70,45
+F,Levofloxacin,46,41
+M,Levofloxacin,82,317
+F,Levofloxacin,81,916
+M,Levofloxacin,75,50
+F,Gentamicin Sulfate,60,77
+F,Gentamicin Sulfate,79,40
+M,Ciprofloxacin HCl,68,238
+F,CeftriaXONE,68,52
+M,CeftriaXONE,80,262
+F,CeftriaXONE,56,169
+F,CeftriaXONE,56,0
+M,Cefpodoxime Proxetil,59,95
+M,CefePIME,69,53
+M,CefePIME,60,326
+M,CefePIME,79,196
+F,CefePIME,82,41
+F,CefePIME,77,53
+M,CefePIME,58,77
+M,CefePIME,70,42
+M,CefePIME,33,50
+F,CefePIME,63,282
+F,CefePIME,76,19
+M,Azithromycin,78,97
+M,Azithromycin,73,69
+M,Azithromycin,75,18
+F,Azithromycin,87,410
+M,Ampicillin Sodium,50,94
+F,Vancomycin,80,174
+M,Vancomycin,74,248
+M,Vancomycin,58,353
+M,Vancomycin,62,36
+M,Vancomycin,85,172
+M,Vancomycin,78,26
+M,Vancomycin,71,159
+M,Vancomycin,80,576
+F,Vancomycin,80,549
+M,Vancomycin,23,218
+M,Vancomycin,82,189
+M,Vancomycin,78,25
+F,Vancomycin,80,40
+M,Vancomycin,54,215
+F,Vancomycin,88,123
+M,Vancomycin,83,262
+F,Vancomycin,89,16
+M,Vancomycin,72,50
+M,Vancomycin,61,20
+M,Vancomycin,44,467
+F,Vancomycin,62,23
+M,Vancomycin,59,41
+M,Vancomycin,56,48
+M,Vancomycin,87,90
+F,Vancomycin,49,44
+F,Vancomycin,71,835
+F,Tobramycin Sulfate,45,32
+M,Tobramycin Sulfate,69,467
+M,Linezolid,78,22
+M,Linezolid,80,95
+F,Levofloxacin,84,405
+M,Levofloxacin,64,115
+F,Levofloxacin,76,30
+F,Levofloxacin,76,128
+F,Levofloxacin,78,45
+M,Levofloxacin,88,41
+M,Levofloxacin,80,317
+F,Levofloxacin,58,916
+M,Levofloxacin,87,50
+F,Levofloxacin,56,77
+M,Levofloxacin,78,40
+M,Levofloxacin,71,238
+M,Levofloxacin,77,52
+F,Levofloxacin,62,262
+M,Levofloxacin,69,169
+M,Gentamicin Sulfate,44,0
+M,Gentamicin Sulfate,67,95
+M,Ciprofloxacin HCl,85,53
+M,CeftriaXONE,61,326
+F,CeftriaXONE,75,196
+F,CeftriaXONE,66,41
+M,CeftriaXONE,70,53
+F,Cefpodoxime Proxetil,80,77
+M,CefePIME,72,42
+F,CefePIME,69,50
+F,CefePIME,82,282
+M,CefePIME,87,19
+F,CefePIME,32,97
+M,CefePIME,70,69
+F,CefePIME,63,18
+F,CefePIME,50,410
+M,CefePIME,85,94
+M,CefePIME,77,174
+M,Azithromycin,71,248
+M,Azithromycin,25,353
+F,Azithromycin,50,36
+F,Azithromycin,72,172
+M,Ampicillin Sodium,61,26
+M,Vancomycin,58,159
+M,Vancomycin,41,576
+F,Vancomycin,48,549
+F,Vancomycin,73,218
+M,Vancomycin,51,189
+M,Vancomycin,81,25
+M,Vancomycin,45,40
+F,Vancomycin,56,215
+M,Vancomycin,72,123
+F,Vancomycin,80,262
+M,Vancomycin,84,16
+M,Vancomycin,80,50
+M,Vancomycin,76,20
+M,Vancomycin,44,467
+M,Vancomycin,85,23
+M,Vancomycin,88,41
+M,Vancomycin,62,48
+F,Vancomycin,87,90
+M,Vancomycin,84,44
+M,Vancomycin,64,835
+M,Vancomycin,72,32
+F,Vancomycin,83,467
+M,Vancomycin,60,22
+F,Vancomycin,85,95
+M,Vancomycin,49,405
+F,Vancomycin,70,115
+M,Tobramycin Sulfate,46,30
+M,Tobramycin Sulfate,82,128
+M,Linezolid,81,45
+F,Linezolid,75,41
+M,Levofloxacin,60,317
+M,Levofloxacin,79,916
+M,Levofloxacin,68,50
+F,Levofloxacin,68,77
+F,Levofloxacin,80,40
+F,Levofloxacin,56,238
+M,Levofloxacin,56,52
+M,Levofloxacin,59,262
+M,Levofloxacin,69,169
+F,Levofloxacin,60,0
+M,Levofloxacin,79,95
+F,Levofloxacin,82,53
+F,Levofloxacin,77,326
+F,Levofloxacin,58,196
+M,Levofloxacin,70,41
+M,Gentamicin Sulfate,33,53
+F,Gentamicin Sulfate,63,77
+M,Ciprofloxacin HCl,76,42
+F,CeftriaXONE,78,50
+M,CeftriaXONE,73,282
+M,CeftriaXONE,75,19
+M,CeftriaXONE,87,97
+F,Cefpodoxime Proxetil,50,69
+M,CefePIME,80,18
+M,CefePIME,74,410
+M,CefePIME,58,94
+M,CefePIME,62,174
+M,CefePIME,85,248
+F,CefePIME,78,353
+F,CefePIME,71,36
+M,CefePIME,80,172
+F,CefePIME,80,26
+M,CefePIME,23,159
+F,Azithromycin,82,576
+F,Azithromycin,78,549
+M,Azithromycin,80,218
+F,Azithromycin,54,189
+M,Ampicillin Sodium,88,25
+F,Vancomycin,83,40
+F,Vancomycin,89,215
+M,Vancomycin,72,123
+M,Vancomycin,61,262
+M,Vancomycin,44,16
+M,Vancomycin,62,50
+F,Vancomycin,59,20
+F,Vancomycin,56,467
+M,Vancomycin,87,23
+M,Vancomycin,49,41
+M,Vancomycin,71,48
+F,Vancomycin,45,90
+F,Vancomycin,69,44
+M,Vancomycin,78,835
+M,Vancomycin,80,32
+M,Vancomycin,84,467
+F,Vancomycin,64,22
+M,Vancomycin,76,95
+F,Vancomycin,76,405
+M,Vancomycin,78,115
+M,Vancomycin,88,30
+M,Vancomycin,80,128
+M,Vancomycin,58,45
+M,Vancomycin,87,41
+M,Vancomycin,56,317
+M,Vancomycin,78,916
+F,Tobramycin Sulfate,71,50
+M,Tobramycin Sulfate,77,77
+M,Linezolid,62,40
+M,Linezolid,69,238
+F,Levofloxacin,44,52
+M,Levofloxacin,67,262
+F,Levofloxacin,85,169
+M,Levofloxacin,61,0
+F,Levofloxacin,75,95
+M,Levofloxacin,66,53
+M,Levofloxacin,70,326
+M,Levofloxacin,80,196
+F,Levofloxacin,72,41
+M,Levofloxacin,69,53
+M,Levofloxacin,82,77
+M,Levofloxacin,87,42
+F,Levofloxacin,32,50
+F,Levofloxacin,70,282
+F,Levofloxacin,63,19
+M,Gentamicin Sulfate,50,97
+M,Gentamicin Sulfate,85,69
+M,Ciprofloxacin HCl,77,18
+F,CeftriaXONE,71,410
+M,CeftriaXONE,25,94
+F,CeftriaXONE,50,174
+F,CeftriaXONE,72,248
+F,Cefpodoxime Proxetil,61,353
+M,CefePIME,58,36
+M,CefePIME,41,172
+F,CefePIME,48,26
+M,CefePIME,73,159
+F,CefePIME,51,576
+M,CefePIME,81,549
+M,CefePIME,45,218
+M,CefePIME,56,189
+F,CefePIME,72,25
+M,CefePIME,80,40
+M,Azithromycin,84,215
+M,Azithromycin,80,123
+M,Azithromycin,76,262
+M,Azithromycin,44,16
+F,Ampicillin Sodium,85,50
+F,Vancomycin,88,20
+M,Vancomycin,62,467
+F,Vancomycin,87,23
+M,Vancomycin,84,41
+F,Vancomycin,64,48
+F,Vancomycin,72,90
+M,Vancomycin,83,44
+F,Vancomycin,60,835
+M,Vancomycin,85,32
+F,Vancomycin,49,467
+F,Vancomycin,70,22
+M,Vancomycin,46,95
+M,Vancomycin,82,405
+M,Vancomycin,81,115
+M,Vancomycin,75,30
+F,Vancomycin,60,128
+F,Vancomycin,79,45
+M,Vancomycin,68,41
+M,Vancomycin,68,317
+M,Vancomycin,80,916
+F,Vancomycin,56,50
+F,Vancomycin,56,77
+M,Vancomycin,59,40
+M,Vancomycin,69,238
+M,Vancomycin,60,52
+F,Vancomycin,79,262
+M,Tobramycin Sulfate,82,169
+F,Tobramycin Sulfate,77,0
+M,Linezolid,58,95
+M,Linezolid,70,53
+M,Levofloxacin,33,326
+M,Levofloxacin,63,196
+M,Levofloxacin,76,41
+M,Levofloxacin,78,53
+M,Levofloxacin,73,77
+F,Levofloxacin,75,42
+M,Levofloxacin,87,50
+M,Levofloxacin,50,282
+M,Levofloxacin,80,19
+F,Levofloxacin,74,97
+M,Levofloxacin,58,69
+F,Levofloxacin,62,18
+M,Levofloxacin,85,410
+F,Levofloxacin,78,94
+M,Levofloxacin,71,174
+M,Gentamicin Sulfate,80,248
+M,Gentamicin Sulfate,80,353
+F,Ciprofloxacin HCl,23,36
+M,CeftriaXONE,82,172
+M,CeftriaXONE,78,26
+M,CeftriaXONE,80,159
+F,CeftriaXONE,54,576
+F,Cefpodoxime Proxetil,88,549
+F,CefePIME,83,218
+M,CefePIME,89,189
+M,CefePIME,72,25
+M,CefePIME,61,40
+F,CefePIME,44,215
+M,CefePIME,62,123
+F,CefePIME,59,262
+F,CefePIME,56,16
+F,CefePIME,87,50
+M,CefePIME,49,20
+M,Azithromycin,71,467
+F,Azithromycin,45,23
+M,Azithromycin,69,41
+F,Azithromycin,78,48
+M,Ampicillin Sodium,80,90
+M,Vancomycin,84,44
+M,Vancomycin,64,835
+F,Vancomycin,76,32
+M,Vancomycin,76,467
+M,Vancomycin,78,22
+M,Vancomycin,88,95
+M,Vancomycin,80,405
+M,Vancomycin,58,115
+F,Vancomycin,87,30
+F,Vancomycin,56,128
+M,Vancomycin,78,45
+F,Vancomycin,71,41
+M,Vancomycin,77,317
+F,Vancomycin,62,916
+F,Vancomycin,69,50
+M,Vancomycin,44,77
+F,Vancomycin,67,40
+M,Vancomycin,85,238
+F,Vancomycin,61,52
+F,Vancomycin,75,262
+M,Vancomycin,66,169
+M,Vancomycin,70,0
+M,Vancomycin,80,95
+M,Vancomycin,72,53
+F,Vancomycin,69,326
+F,Vancomycin,82,196
+M,Tobramycin Sulfate,87,41
+M,Tobramycin Sulfate,32,53
+M,Linezolid,70,77
+F,Linezolid,63,42
+F,Levofloxacin,50,50
+M,Levofloxacin,85,282
+M,Levofloxacin,77,19
+M,Levofloxacin,71,97
+F,Levofloxacin,25,69
+M,Levofloxacin,50,18
+F,Levofloxacin,72,410
+M,Levofloxacin,61,94
+M,Levofloxacin,58,174
+M,Levofloxacin,41,248
+M,Levofloxacin,48,353
+M,Levofloxacin,73,36
+M,Levofloxacin,51,172
+M,Levofloxacin,81,26
+F,Levofloxacin,45,159
+M,Gentamicin Sulfate,56,576
+M,Gentamicin Sulfate,72,549
+M,Ciprofloxacin HCl,80,218
+F,CeftriaXONE,84,189
+M,CeftriaXONE,80,25
+F,CeftriaXONE,76,40
+M,CeftriaXONE,44,215
+F,Cefpodoxime Proxetil,85,123
+M,CefePIME,88,262
+M,CefePIME,62,16
+M,CefePIME,87,50
+F,CefePIME,84,20
+M,CefePIME,64,467
+M,CefePIME,72,23
+M,CefePIME,83,41
+F,CefePIME,60,48
+F,CefePIME,85,90
+F,CefePIME,49,44
+M,Azithromycin,70,835
+M,Azithromycin,46,32
+M,Azithromycin,82,467
+F,Azithromycin,81,22
+M,Ampicillin Sodium,75,95
+F,Vancomycin,60,405
+F,Vancomycin,79,115
+F,Vancomycin,68,30
+M,Vancomycin,68,128
+M,Vancomycin,80,45
+F,Vancomycin,56,41
+M,Vancomycin,56,317
+F,Vancomycin,59,916
+M,Vancomycin,69,50
+M,Vancomycin,60,77
+M,Vancomycin,79,40
+F,Vancomycin,82,238
+M,Vancomycin,77,52
+M,Vancomycin,58,262
+M,Vancomycin,70,169
+M,Vancomycin,33,0
+M,Vancomycin,63,95
+F,Vancomycin,76,53
+F,Vancomycin,78,326
+M,Vancomycin,73,196
+F,Vancomycin,75,41
+M,Vancomycin,87,53
+F,Vancomycin,50,77
+F,Vancomycin,80,42
+M,Vancomycin,74,50
+F,Vancomycin,58,282
+M,Tobramycin Sulfate,62,19
+F,Tobramycin Sulfate,85,97
+F,Linezolid,78,69
+M,Linezolid,71,18
+M,Levofloxacin,80,410
+M,Levofloxacin,80,94
+M,Levofloxacin,23,174
+F,Levofloxacin,82,248
+F,Levofloxacin,78,353
+M,Levofloxacin,80,36
+M,Levofloxacin,54,172
+M,Levofloxacin,88,26
+F,Levofloxacin,83,159
+F,Levofloxacin,89,576
+M,Levofloxacin,72,549
+M,Levofloxacin,61,218
+M,Levofloxacin,44,189
+F,Levofloxacin,62,25
+M,Levofloxacin,59,40
+F,Gentamicin Sulfate,56,215
+M,Gentamicin Sulfate,87,123
+M,Ciprofloxacin HCl,49,262
+M,CeftriaXONE,71,16
+M,CeftriaXONE,45,50
+M,CeftriaXONE,69,20
+M,CeftriaXONE,78,467
+M,Cefpodoxime Proxetil,80,23
+F,CefePIME,84,41
+M,CefePIME,64,48
+M,CefePIME,76,90
+M,CefePIME,76,44
+F,CefePIME,78,835
+M,CefePIME,88,32
+F,CefePIME,80,467
+M,CefePIME,58,22
+F,CefePIME,87,95
+M,CefePIME,56,405
+M,Azithromycin,78,115
+M,Azithromycin,71,30
+F,Azithromycin,77,128
+M,Azithromycin,62,45
+M,Ampicillin Sodium,69,41
+M,Vancomycin,44,317

@@ -1,0 +1,54 @@
+[
+    [
+        [
+            "Tel Aviv",
+            "Beersheba",
+            "Jerusalem",
+            "Haifa"
+        ]
+    ],
+    [
+        {
+            "City": "Tel Aviv"
+        },
+        {
+            "City": "Beersheba"
+        },
+        {
+            "City": "Jerusalem"
+        },
+        {
+            "City": "Haifa"
+        },
+        {
+            "City": "Jerusalem"
+        },
+        {
+            "City": "Tel Aviv"
+        },
+        {
+            "City": "Haifa"
+        },
+        {
+            "City": "Beersheba"
+        },
+        {
+            "City": "Jerusalem"
+        },
+        {
+            "City": "Jerusalem"
+        },
+        {
+            "City": "Haifa"
+        },
+        {
+            "City": "Tel Aviv"
+        },
+        {
+            "City": "Tel Aviv"
+        },
+        {
+            "City": "Beersheba"
+        }
+    ]
+]
