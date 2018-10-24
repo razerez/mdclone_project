@@ -35,9 +35,6 @@ public class CreateTable : MonoBehaviour
     public JArray JData;
     public GameObject cube;
     public GameObject tableLine;
-    public string firstKey = "";
-    public string secondKey = "";
-    public string thiredKey = "";
     public float minHeight;
     public float maxHeight;
     public float space;
@@ -46,12 +43,16 @@ public class CreateTable : MonoBehaviour
     float cubeHeight;
     float cubeDepth;
     float cubeWidth;
+    public Dictionary<string, Color> colorDict = new Dictionary<string, Color>();
+    public Dictionary<string, JToken> personDict;
+    public List<string> keysList = new List<string>();
 
     private void Start()
     {
         RunPython();
         AnalyzeJson();
         SetVariables();
+        CreateColorDict();
         ArrangeData();
         CreateTableLines();
         //tableLine = GameObject.CreatePrimitive(PrimitiveType.Cube);
@@ -125,24 +126,37 @@ public class CreateTable : MonoBehaviour
         float cubeHeightP = minHeight;
         Color color = Color.red;
         bool textFlag = false;
+        int heightCounter = 1;
         for (int i = gj; i < cubesArray.GetLength(0); i++)
         {
-            color = Color.red;
+            color = new Color();
             while(cubesArray[i,gj] > 0)
             {
+                if (colorDict.ContainsKey("null"))
+                {
+                    color = Color.red;
+                }
+                else
+                {
+                    color = colorDict[(personDict[i.ToString() + " " + gj.ToString() + " " + heightCounter.ToString()][keysList[2]]).ToString()];
+                }
                 cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
                 cube.GetComponent<Collider>().enabled = !cube.GetComponent<Collider>().enabled;
                 cube.transform.localScale = new Vector3(cubeWidth, cubeHeight, cubeDepth);
                 cube.GetComponent<Renderer>().material.color = color;
                 cube.transform.Translate(x1, cubeHeightP, z1);
                 cubesArray[i, gj]--;
-                cubeHeightP += cubeHeight + (space / 2);
-                cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                cube.GetComponent<Collider>().enabled = !cube.GetComponent<Collider>().enabled;
-                cube.transform.localScale = new Vector3(cubeWidth, 0.01f, cubeDepth);
-                cube.GetComponent<Renderer>().material.color = Color.black;
-                cube.transform.Translate(x1, cubeHeightP, z1);
-                cubeHeightP += cubeHeight + (space / 2);
+                cubeHeightP += cubeHeight - space * 2;
+                heightCounter++;
+                if (maxHeight > 10)
+                {
+                    cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                    cube.GetComponent<Collider>().enabled = !cube.GetComponent<Collider>().enabled;
+                    cube.transform.localScale = new Vector3(cubeWidth, space - space / 10, cubeDepth);
+                    cube.GetComponent<Renderer>().material.color = Color.black;
+                    cube.transform.Translate(x1, cubeHeightP, z1);
+                }
+                cubeHeightP += (space) * 3;
                 textFlag = true;
             }
             if (textFlag)
@@ -151,28 +165,41 @@ public class CreateTable : MonoBehaviour
             }
             textFlag = false;
             cubeHeightP = minHeight;
+            heightCounter = 1;
             z1 += length / (xParameterCount);
         }
         x1 = x0 + (length / (zParameterCount)) / 2;
         z1 = z0 + (length / (xParameterCount)) / 2;
         for (int i = gj; i < cubesArray.GetLength(1); i++)
         {
-            color = Color.red;
+            color = new Color();
             while (cubesArray[gj, i] > 0)
             {
+                if (colorDict.ContainsKey("null"))
+                {
+                    color = Color.red;
+                }
+                else
+                {
+                    color = colorDict[(personDict[gj.ToString() + " " + i.ToString() + " " + heightCounter.ToString()][keysList[2]]).ToString()];
+                }
                 cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
                 cube.GetComponent<Collider>().enabled = !cube.GetComponent<Collider>().enabled;
                 cube.transform.localScale = new Vector3(cubeWidth, cubeHeight, cubeDepth);
                 cube.GetComponent<Renderer>().material.color = color;
                 cube.transform.Translate(x1, cubeHeightP, z1);
                 cubesArray[gj, i]--;
-                cubeHeightP += cubeHeight + (space / 2);
-                cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-                cube.GetComponent<Collider>().enabled = !cube.GetComponent<Collider>().enabled;
-                cube.transform.localScale = new Vector3(cubeWidth, 0.01f, cubeDepth);
-                cube.GetComponent<Renderer>().material.color = Color.black;
-                cube.transform.Translate(x1, cubeHeightP, z1);
-                cubeHeightP += cubeHeight + (space / 2);
+                cubeHeightP += cubeHeight - space * 2;
+                heightCounter++;
+                if (maxHeight > 10)
+                {
+                    cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+                    cube.GetComponent<Collider>().enabled = !cube.GetComponent<Collider>().enabled;
+                    cube.transform.localScale = new Vector3(cubeWidth, space - space/10, cubeDepth);
+                    cube.GetComponent<Renderer>().material.color = Color.black;
+                    cube.transform.Translate(x1, cubeHeightP, z1);
+                }
+                cubeHeightP += space * 3;
                 textFlag = true;
             }
             if (textFlag)
@@ -181,6 +208,7 @@ public class CreateTable : MonoBehaviour
             }
             textFlag = false;
             cubeHeightP = minHeight;
+            heightCounter = 1;
             x1 += length / (zParameterCount);
         }
     }
@@ -198,27 +226,30 @@ public class CreateTable : MonoBehaviour
         int zPosition = -1;
         int i = 0;
         int j = 0;
+        int[] subArray;
         foreach (JToken person in JData)
         {
             i = 0;
             j = 0;
-            foreach (JToken xParameter in JParameters[0][firstKey])
+            foreach (JToken xParameter in JParameters[0][keysList[0]])
             {
-                if (person[firstKey].Equals(xParameter))
+                if (person[keysList[0]].Equals(xParameter))
                 {
                     xPosition = i;
                 }
                 i++;
             }
-            foreach (JToken zParameter in JParameters[0][secondKey])
+            foreach (JToken zParameter in JParameters[0][keysList[1]])
             {
-                if (person[secondKey].Equals(zParameter))
+                if (person[keysList[1]].Equals(zParameter))
                 {
                     zPosition = j;
                 }
                 j++;
             }
             cubesArray[xPosition, zPosition]++;
+            subArray = new int[3] { xPosition, zPosition, cubesArray[xPosition, zPosition] };
+            personDict.Add(subArray[0].ToString() + " " + subArray[1].ToString() + " " + subArray[2].ToString(), person);
             if (cubesArray[xPosition, zPosition] > maxHeight)
             {
                 maxHeight = cubesArray[xPosition, zPosition];
@@ -233,11 +264,39 @@ public class CreateTable : MonoBehaviour
         textBox.AddComponent<TextMesh>();
         textBox.transform.localScale = new Vector3(size, size, size);
         textBox.transform.Translate(xt, yt, zt);
-        textBox.GetComponent<TextMesh>().text = (string)JParameters[0][firstKey][i] + 'x' + (string)JParameters[0][secondKey][j];
-        textBox.GetComponent<TextMesh>().fontSize = 200;
+        textBox.GetComponent<TextMesh>().text = (string)JParameters[0][keysList[0]][i] + 'x' + (string)JParameters[0][keysList[1]][j];
+        textBox.GetComponent<TextMesh>().fontSize = 100;
         textBox.GetComponent<TextMesh>().transform.localEulerAngles += new Vector3(0, 0, 90);
         textBox.GetComponent<TextMesh>().color = Color.yellow;
-        //PutText(textCanvas, (string)JParameters[0][firstKey][i] + ' ' + (string)JParameters[0][firstKey][gj], size);
+    }
+    private void CreateColorDict()
+    {
+        Color currColor = Color.red;
+        Color newCol = new Color();
+        long longColor = 0;
+        string hex;
+        long maxColor = 4294967295;
+        for (int i = 0; i < colorParameterCount; i++)
+        {
+            if (colorParameterCount > 1)
+            {
+                hex = "#" + longColor.ToString("X8");
+                if (ColorUtility.TryParseHtmlString(hex, out newCol))
+                {
+                    currColor = newCol;
+                }
+                longColor += maxColor / (colorParameterCount - 1);
+            }
+            else
+            {
+                currColor = Color.red;
+            }
+            colorDict.Add(JParameters[0][keysList[2]][i].ToString(), currColor);
+        }
+        if (colorParameterCount == 0)
+        {
+            colorDict.Add("null", Color.red);
+        }
     }
     private void AnalyzeJson()
     {
@@ -249,24 +308,19 @@ public class CreateTable : MonoBehaviour
         {
             foreach (JProperty prop in content.Properties())
             {
-                    if (i < 2)
-                    {
-                        firstKey = secondKey;
-                        secondKey = prop.Name;
-                        //thiredKey = prop.Name;
-                    i++;
-                    }
+                keysList.Add(prop.Name);
+                i++;
             }
         }
-        foreach (JToken xParameter in JParameters[0][firstKey])
+        foreach (JToken xParameter in JParameters[0][keysList[0]])
         {
             xParameterCount++;
         }
-        foreach (JToken zParameter in JParameters[0][secondKey])
+        foreach (JToken zParameter in JParameters[0][keysList[1]])
         {
             zParameterCount++;
         }
-        foreach (JToken colorParameter in JParameters[0][secondKey])
+        foreach (JToken zParameter in JParameters[0][keysList[2]])
         {
             colorParameterCount++;
         }
@@ -274,9 +328,47 @@ public class CreateTable : MonoBehaviour
         {
             dataCount++;
         }
+        SortByKeyVal(keysList[2]);
     }
 
+    private void SortByKeyVal(JToken inpKey)
+    {
+        JToken prvVal = "";
+        JToken currVal;
+        JToken prvPerson = "";
+        JToken tempPerson;
+        JToken person;
+        int count = -1;
+        while (count != 0)
+        {
+            if (count < 0)
+            {
+                count = 1;
+            }
+            else
+            {
+                count = 0;
+            }
+            for (int i = 0; i < dataCount; i++)
+            {
 
+                person = JData[i];
+                currVal = person[inpKey.ToString()];
+                if (i != 0)
+                {
+                    if (string.Compare(currVal.ToString(), prvVal.ToString()) > 0)
+                    {
+                        tempPerson = person;
+                        JData[i] = prvPerson;
+                        JData[i - 1] = tempPerson;
+                        count++;
+                    }
+                }
+                prvPerson = person;
+                prvVal = currVal;
+            }
+        }
+    }
     private void RunPython()
     {
         string file = "data";
@@ -300,6 +392,7 @@ public class CreateTable : MonoBehaviour
         space = 0.1f;
         cubesArray = new int[xParameterCount,zParameterCount];
         heightArray = new int[xParameterCount, zParameterCount];
+        personDict = new Dictionary<string, JToken>();
     }
     public void CreateLine()
     {

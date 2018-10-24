@@ -469,9 +469,6 @@
     <None Include="Assets\Oculus\VR\Shaders\OVRColorRampAlpha.shader" />
     <None Include="Assets\Oculus\VR\Shaders\Unlit Crosshair.shader" />
     <None Include="Assets\Resources\data.txt" />
-    <None Include="Assets\python\mdCloneVR\VrFile1.txt" />
-    <None Include="Assets\python\mdCloneVR\VrFile2.txt" />
-    <None Include="Assets\python\mdCloneVR\VrFile3.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
