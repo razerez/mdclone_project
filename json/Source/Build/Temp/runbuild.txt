@@ -1,0 +1,56 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180628160706
+Username: DESKTOP-0I2C3N3\cdi2
+RunAs User: DESKTOP-0I2C3N3\cdi2
+Configuration Name: 
+Machine: DESKTOP-0I2C3N3 (Microsoft Windows NT 10.0.17134.0)
+Host Application: powershell -Command & { [Console]::WindowWidth = 150; [Console]::WindowHeight = 50; Start-Transcript 'C:\Users\cdi2\Downloads\mdClone-20180627T083334Z-001\mdClone\Assets\Resources\json\Source\Build\\Temp\runbuild.txt'; Import-Module 'C:\Users\cdi2\Downloads\mdClone-20180627T083334Z-001\mdClone\Assets\Resources\json\Source\Build\..\Tools\PSake\psake.psm1'; Invoke-psake 'C:\Users\cdi2\Downloads\mdClone-20180627T083334Z-001\mdClone\Assets\Resources\json\Source\Build\..\Build\build.ps1' ; Stop-Transcript; exit !($psake.build_success); }
+Process ID: 7564
+PSVersion: 5.1.17134.112
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17134.112
+BuildVersion: 10.0.17134.112
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\cdi2\Downloads\mdClone-20180627T083334Z-001\mdClone\Assets\Resources\json\Source\Build\\Temp\runbuild.txt
+PS>TerminatingError(Import-Module): "File C:\Users\cdi2\Downloads\mdClone-20180627T083334Z-001\mdClone\Assets\Resources\json\Source\Tools\PSake\psake.psm1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170."
+Import-Module : File 
+C:\Users\cdi2\Downloads\mdClone-20180627T083334Z-001\mdClone\Assets\Resources\json\Source\Tools\PSake\psake.psm1 cannot 
+be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at 
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:200
++ ... build.txt'; Import-Module 'C:\Users\cdi2\Downloads\mdClone-20180627T0 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [Import-Module], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess,Microsoft.PowerShell.Commands.ImportModuleCommand
+Import-Module : File C:\Users\cdi2\Downloads\mdClone-20180627T083334Z-001\mdClone\Assets\Resources\json\Source\Tools\PSake\psake.psm1 cannot be
+loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:200
++ ... build.txt'; Import-Module 'C:\Users\cdi2\Downloads\mdClone-20180627T0 ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [Import-Module], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess,Microsoft.PowerShell.Commands.ImportModuleCommand
+Invoke-psake : The term 'Invoke-psake' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:339
++ ... es\json\Source\Build\..\Tools\PSake\psake.psm1'; Invoke-psake 'C:\Use ...
++                                                      ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Invoke-psake:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Invoke-psake : The term 'Invoke-psake' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:339
++ ... es\json\Source\Build\..\Tools\PSake\psake.psm1'; Invoke-psake 'C:\Use ...
++                                                      ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Invoke-psake:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+**********************
+Windows PowerShell transcript end
+End time: 20180628160707
+**********************

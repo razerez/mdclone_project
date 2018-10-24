@@ -1,0 +1,15 @@
+Antibiotic after diagnosis,City
+Azithromycin,Tel Aviv
+Azithromycin,Beersheba
+Azithromycin,Jerusalem
+CeftriaXONE,Haifa
+CeftriaXONE,Jerusalem
+CeftriaXONE,Tel Aviv
+CeftriaXONE,Haifa
+Cefpodoxime Proxetil,Beersheba
+Linezolid,Jerusalem
+Linezolid,Jerusalem
+Vancomycin Oral Liquid,Haifa
+Vancomycin Oral Liquid,Tel Aviv
+Ciprofloxacin HCl,Tel Aviv
+Ampicillin Sodium,Beersheba
